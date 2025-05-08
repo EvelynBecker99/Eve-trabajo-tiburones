@@ -5,7 +5,13 @@
 
 
 }
-
+#listanav li{
+	display: inline-block;
+	
+}
+#listanav {
+	text-align: center;
+}
 
 body{
     background-color: #7fa5fc;
