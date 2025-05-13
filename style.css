@@ -5,14 +5,22 @@
 
 
 }
+nav{
+	position: sticky;
+	top: 1px;
+	background-color: #7fa5fc;
+	height: 50px;
+	
+	
+}
 #listanav li{
 	display: inline-block;
 	
 }
 #listanav {
 	text-align: center;
+	
 }
-
 body{
     background-color: #7fa5fc;
 	font-family: "fuente linda";
@@ -24,7 +32,8 @@ body{
     text-align: center;
 }
 h1{
-    color: #140f07;
+    color: black;
+
 }
 img{
 width: 50%;
