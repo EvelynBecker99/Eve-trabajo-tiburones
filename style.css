@@ -69,9 +69,30 @@ width: 50%;
 	top:1px;
 }
 
+table th{
+	background-color: #314179;
+	border: 5px; #7a8eb9;
+	border-style: inherit;
 
+}
 
+table td{
+	background-color: #637aad;
+	border: 5px; #7a8eb9;
+	border-style: inherit;
 
-
-
+}
+.tabla2 th{
+	background-color: cornflowerblue;
+	border: yellowgreen;
+	border-style: outset;
+}
+.tabla2 td{
+	background-color: darkcyan;
+	border: yellowgreen;
+	border-style: outset;
+}
+.tabla-principal{
+	display: inline-block;
+}
 
