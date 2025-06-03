@@ -27,16 +27,24 @@ body{
 	font-size: xx-large;
 }
 
-.texto {
-    
+.textoo {
+    display: inline-block;
     text-align: center;
+	width: 50%;
 }
 h1{
     color: black;
 
 }
+
 img{
-width: 50%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	
+}
+
+.texto{
+	text-align: center;
 
 }
 
@@ -71,14 +79,14 @@ width: 50%;
 
 table th{
 	background-color: #314179;
-	border: 5px; #7a8eb9;
+	border: 5px #7a8eb9;
 	border-style: inherit;
 
 }
 
 table td{
 	background-color: #637aad;
-	border: 5px; #7a8eb9;
+	border: 5px #7a8eb9;
 	border-style: inherit;
 
 }
@@ -95,4 +103,13 @@ table td{
 .tabla-principal{
 	display: inline-block;
 }
+.flex-conteiner{
+	display: flex;
+	flex-direction: row;
+}
+.foto{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
 
+}
